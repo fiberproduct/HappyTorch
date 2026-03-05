@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-"""Start TorchCodeV2 web server."""
+"""Start HappyTorch web server."""
 
 import os
 import sys
@@ -30,7 +30,7 @@ def check_dependencies():
 
 if __name__ == "__main__":
     print("\n" + "=" * 50)
-    print("🔥 TorchCodeV2 Web Server")
+    print("🔥 HappyTorch Web Server")
     print("=" * 50)
     
     # Check dependencies

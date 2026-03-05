@@ -29,7 +29,7 @@ Python 3.10+ required. PyTorch CPU-only, no GPU needed.
 
 ## Architecture
 
-TorchCodeV2 is a PyTorch interview practice platform (LeetCode for tensors). Jupyter-based, no GPU required.
+HappyTorch is a PyTorch interview practice platform (LeetCode for tensors). Jupyter-based, no GPU required.
 
 Based on [TorchCode](https://github.com/duoan/TorchCode) with 11 additional problems for LLM, Diffusion, and PEFT.
 

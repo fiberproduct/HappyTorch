@@ -72,7 +72,7 @@ def status() -> None:
     total = len(tasks)
 
     print(f"\n{'─' * 56}")
-    print(f"  🔥 TorchCode Progress: {solved_count}/{total} solved")
+    print(f"  🔥 HappyTorch Progress: {solved_count}/{total} solved")
     print(f"{'─' * 56}")
 
     for task_id, task in tasks:

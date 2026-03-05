@@ -1,4 +1,4 @@
-"""FastAPI backend for TorchCodeV2 web interface."""
+"""FastAPI backend for HappyTorch web interface."""
 
 from __future__ import annotations
 
@@ -24,7 +24,7 @@ sys.path.insert(0, str(Path(__file__).parent.parent))
 from torch_judge.tasks import get_task, list_tasks
 from torch_judge.progress import _load, mark_solved, mark_attempted
 
-app = FastAPI(title="TorchCodeV2", description="PyTorch Interview Practice Platform")
+app = FastAPI(title="HappyTorch", description="PyTorch Interview Practice Platform")
 
 # CORS for development
 app.add_middleware(
@@ -224,7 +224,7 @@ async def root():
     index_path = STATIC_DIR / "index.html"
     if index_path.exists():
         return HTMLResponse(content=index_path.read_text(encoding="utf-8"))
-    return HTMLResponse(content="<h1>TorchCodeV2</h1><p>Static files not found</p>")
+    return HTMLResponse(content="<h1>HappyTorch</h1><p>Static files not found</p>")
 
 
 @app.get("/api/tasks")

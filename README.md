@@ -1,4 +1,4 @@
-# 🔥 TorchCodeV2
+# 🔥 HappyTorch
 
 **Crack the PyTorch interview — now with LLM, Diffusion, and PEFT coverage.**
 
@@ -20,7 +20,7 @@ Practice implementing operators and architectures from scratch — the exact ski
 
 This project is a derivative work based on the excellent [TorchCode](https://github.com/duoan/TorchCode) by [@duoan](https://github.com/duoan).
 
-**TorchCodeV2** extends the original project with **11 additional problems** covering:
+**HappyTorch** extends the original project with **11 additional problems** covering:
 - Modern activation functions (GELU, SiLU, SwiGLU)
 - Parameter-efficient fine-tuning (LoRA, DoRA)
 - Conditional modulation for Diffusion models (AdaLN, AdaLN-Zero, FiLM)
@@ -31,11 +31,11 @@ We sincerely thank the original author for creating such a well-designed practic
 
 ---
 
-## 🎯 Why TorchCodeV2?
+## 🎯 Why HappyTorch?
 
 Top companies (Meta, Google DeepMind, OpenAI, etc.) expect ML engineers to implement core operations **from memory on a whiteboard**. Reading papers isn't enough — you need to write `softmax`, `LayerNorm`, `MultiHeadAttention`, and full Transformer blocks cold.
 
-TorchCodeV2 gives you a **structured practice environment** with:
+HappyTorch gives you a **structured practice environment** with:
 
 | | Feature | |
 |---|---|---|
@@ -80,8 +80,8 @@ pip install jupyterlab numpy
 
 ```bash
 # Clone the repository
-git clone https://github.com/YOUR_USERNAME/TorchCodeV2.git
-cd TorchCodeV2
+git clone https://github.com/YOUR_USERNAME/HappyTorch.git
+cd HappyTorch
 
 # Install the judge engine in development mode
 pip install -e .
@@ -110,7 +110,7 @@ Then open **http://localhost:8888** in your browser.
 
 ## 🌐 Web Mode (LeetCode-like Interface)
 
-TorchCodeV2 now offers a web-based practice interface similar to LeetCode!
+HappyTorch now offers a web-based practice interface similar to LeetCode!
 
 ### Features
 
@@ -279,7 +279,7 @@ status()                    # Progress dashboard — solved / attempted / todo
 ## 🏛️ Project Structure
 
 ```
-TorchCodeV2/
+HappyTorch/
 ├── torch_judge/           # Auto-grading engine
 │   ├── __init__.py        # Public API: check(), hint(), status()
 │   ├── engine.py          # Core logic — extracts user function from IPython namespace
@@ -326,7 +326,7 @@ TorchCodeV2/
 
 ## 🧩 Adding Your Own Problems
 
-TorchCodeV2 uses auto-discovery — just drop a new file in `torch_judge/tasks/`:
+HappyTorch uses auto-discovery — just drop a new file in `torch_judge/tasks/`:
 
 ```python
 # torch_judge/tasks/my_task.py
@@ -369,7 +369,7 @@ Progress is saved in <code>data/progress.json</code>. Your solutions in <code>no
 <details>
 <summary><b>What's different from the original TorchCode?</b></summary>
 <br>
-TorchCodeV2 adds 11 new problems covering:
+HappyTorch adds 11 new problems covering:
 - Modern activation functions (GELU, SiLU, SwiGLU)
 - Parameter-efficient fine-tuning (LoRA, DoRA)
 - Diffusion model components (AdaLN, AdaLN-Zero, FiLM)

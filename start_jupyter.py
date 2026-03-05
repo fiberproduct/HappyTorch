@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-"""Start TorchCodeV2 JupyterLab server."""
+"""Start HappyTorch JupyterLab server."""
 
 import os
 import subprocess
@@ -28,7 +28,7 @@ def main():
         print(f"Copied {len(templates)} templates and {len(solutions)} solutions.")
     
     print("\n" + "=" * 50)
-    print("📓 TorchCodeV2 JupyterLab")
+    print("📓 HappyTorch JupyterLab")
     print("=" * 50)
     print("\n  Open the displayed URL in your browser")
     print("  Press Ctrl+C to stop\n")
